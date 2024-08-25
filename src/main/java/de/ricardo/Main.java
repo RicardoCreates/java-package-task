@@ -11,5 +11,13 @@ public class Main {
 
         System.out.println(library);
         System.out.println(library.getBooks()[0]);
+
+        library.addBook(new Book("Herr der Ringe", "Ring Master", "1987654321"));
+        System.out.println("Library:" + library);
+
+        library.removeBook(new Book("Fahrenheit 451","Ray Bradbury", "1122334455" ));
+        System.out.println("Library:" + library);
+
     }
+
 }
